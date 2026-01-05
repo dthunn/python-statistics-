@@ -1,0 +1,25 @@
+The choco_customer_kpi.csv file contains the data of all purchases done in the last 6 months by the customers of Diogo's Delicious Chocolate Company. 
+
+The product portfolio contains 11 different types of chocolate: hazelnut, milk, white, strawberry_yoghurt, caramel, dark, m_and_m, cookie, almond, macadamia and lemon.
+
+Variable description:
+customer_id - unique identifier for each customer.
+firstorder - year and month of the customer first order. The format is yyyymm.
+gender - self-specified customer gender. A customer can choose either Male or Female. A blank answer means the customer did not answer the question.
+age - the age of customer. Not verified officially. 
+orders - total number of orders in the last 6 months for each customer.
+discount_rate - average discount rate the customer had in its orders. It is weighted in value.
+revenue - total revenue per customer in the last 6 months.
+hazelnut - total revenue that each customer bough of chocolate with hazelnut pieces.
+milk - total revenue that each customer bough of milk chocolate.
+white - total revenue that each customer bough of white chocolate.
+strawberry_yoghurt - total revenue that each customer bough of chocolate with strawberry and Yoghurt filling.
+caramel - total revenue that each customer bough of chocolate with caramel filling.
+dark - total revenue that each customer bough of dark chocolate.
+m_and_m - total revenue that each customer bough of chocolate with M&Ms .
+cookie - total revenue that each customer bough of chocolate with cookie bites.
+almond - total revenue that each customer bough of chocolate with sliced almonds.
+macadamia - total revenue that each customer bough of chocolate with while macadamia nuts.
+lemon - total revenue that each customer bough of chocolate with leman filling.
+average_item_value - the average price each customer paid per item
+profit - the profit each customer generated to DDCC
